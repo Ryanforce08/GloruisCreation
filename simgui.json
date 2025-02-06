@@ -10,7 +10,24 @@
   },
   "NTProvider": {
     "types": {
-      "/FMSInfo": "FMSInfo"
+      "/FMSInfo": "FMSInfo",
+      "/SmartDashboard/Controller": "String Chooser",
+      "/SmartDashboard/Field": "Field2d",
+      "/SmartDashboard/Multi Con": "String Chooser",
+      "/SmartDashboard/Swag Drive": "String Chooser"
+    },
+    "windows": {
+      "/SmartDashboard/Field": {
+        "bottom": 1476,
+        "height": 8.210550308227539,
+        "left": 150,
+        "right": 2961,
+        "top": 79,
+        "width": 16.541748046875,
+        "window": {
+          "visible": true
+        }
+      }
     }
   },
   "NetworkTables": {
@@ -22,6 +39,12 @@
         "open": true
       },
       "SmartDashboard": {
+        "Controller": {
+          "open": true,
+          "string[]##v_/SmartDashboard/Controller/options": {
+            "open": true
+          }
+        },
         "open": true
       }
     }
